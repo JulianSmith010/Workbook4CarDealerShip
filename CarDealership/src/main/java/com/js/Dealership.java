@@ -6,9 +6,10 @@ import java.util.List;
 class Dealership{
    private String name;
     private ArrayList<Vehicle> inventory;
-        private FileManager fileManager;
+    private FileManager fileManager;
+    private Object id;
 
-        public Dealership(FileManager fileManager) {
+    public Dealership() {
             this.fileManager = fileManager;
         }
 
@@ -126,6 +127,7 @@ class Dealership{
 
             return removed;
         }
-    }
+
+}
 
 
